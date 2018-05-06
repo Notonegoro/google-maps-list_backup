@@ -5,7 +5,7 @@ mouse = Controller()
 
 # variables
 xColorContinue =
-yColorContinue = 
+yColorContinue =
 xYellow1 =
 yYellow1 =
 xYellow2 =
@@ -13,4 +13,4 @@ yYellow2 =
 AdressbarClip =
 PlaceDetails =
 
-
+# Test command in atom
