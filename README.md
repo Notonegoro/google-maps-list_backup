@@ -3,6 +3,7 @@
 A way to copy all your marked points from any list in  google maps to a JSON file.
 
 It´s a very basic with mouse control way to simulate a human copy and past all its own saved places. 
+There are thoughts of integrating webscraping, but not yet integrated
 
 I only do this project, to save my places with the labels, which is not possible from the google side.
 
