@@ -1,0 +1,31 @@
+[German]
+
+Voraussetzungen:
+-Die zu speichernede Liste muss in Chrome[Maximiert] (vorerst) geöffnet sein.
+
+
+Die Schritte:
+-[]Erstes/nächstes Element anklicken. Pixelfarbe abfragen ob nächste Seite geladen hat.
+-[]URL (F6) Kopieren und in Variable schreiben
+-[]Den Titel und Koordinaten markieren und kopieren
+-[]Kopierten String stripen, bei "\r\n" und in einzelne Variablen speichern
+--[]Bsp. "-8.571562, 115.047793" davon nur 115.04779 in die Zwischenablage legen (für später) (Case 3)
+-[]URL, Titel und Koordinaten in eine Datei schreiben (CSV oder JSON) (Case 3 und Global)
+--[]immer in neue Datei schreiben (Global)
+-[]Datei speichern mit Datum, schließen erst wenn script beendet wird. (Global)
+-[]Checken in welchen Listen schon gespeichert ist. (gelb, grün, blau) (Case 4)
+--[]wenn Gelb, dann direkt zurück (Case 4)
+--[]wenn Grün, dann grün entfernen und in gelb (Case 4)
+--[]wenn blau, dann in gelb (Case 4)
+-[]Zurück anklicken. (Case 4)
+-[]Suche in chrome öffnen und die dezimalen Koordinate v. Zwischenablage einfügen, mit ENTER bestätigen
+-[]Nach dem markieren suchen Bereich suchen mit PixelSearch, wenn nicht gefunden, dann manuel Mausklick.
+-[]Koordinaten von PixelSearch anklicken.
+-[]Von vorne beginnen!
+-[]alle Koordinaten dynamisch an das Fenster anpassen.
+-[]Fehler: URL wird nur beim ersten mal über "F6" kopiert.
+-[]Fehler: bei grün wird nicht lange genug gewartet, so dass der Punkt aus "potetial property" fliegen kann. 116.23204
+-[]bei "grün" als Label  "Waren wir noch nicht!" eintragen.
+-[]weiter automatisieren.
+--[]nach Case 1 warten bis sich die Farbe geändert hat, dann automatisch weiter.
+--[]bei den anderen Cases genau so
